@@ -1,0 +1,36 @@
+.tweet-displayer-wrapper {
+    height: 400px;
+    overflow: auto;
+    position: relative;
+    background-color: #444;
+    border-radius: 20px;
+}
+
+
+.tweet {
+    background-color: #444;
+    padding: 14px;
+    border-bottom: 1px solid #555;
+
+    a {
+        text-decoration: none;
+
+        &:hover {
+            p, span {
+                color: #ffc107;
+            }
+        }
+    }
+
+    p {
+        font-size: 1rem;
+        font-weight: 400;
+        text-decoration: none;
+        color: #fff;
+    }
+
+    span {
+        color: #999;
+        text-decoration: none;
+    }
+}
